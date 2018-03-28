@@ -63,9 +63,13 @@
                         </address>
 
                         <div class="center">
-                            <span class="btn btn-sm btn-secondary">
+                            <a href="http://www.pedsav.com/index.php?option=com_content&view=article&id=4&Itemid=6"
+                               class="btn btn-sm btn-secondary"
+                                target="_blank"
+                                rel="nofollow">
+
                                 More Details
-                            </span>
+                            </a>
                         </div>
                     </div> <!-- // ghost box -->
 
@@ -81,7 +85,7 @@
                 <?php
                     $buttons = [
                         [
-                            'href' => 'http://www.pedsav.com/index.php?option=com_content&view=article&id=21&Itemid=23',
+                            'href' => 'https://health.healow.com/pedsav',
                             'title' => 'Online Bill Pay'
                         ],
                         [
@@ -115,7 +119,7 @@
                     We're working on a brand-new website to go along with our brand-new look! If you don't find what you're looking for on this page, visit our existing website for additional information &amp; resources.
                 </p>
                 <div class="gutter-top">
-                    <a href="#" class="btn btn-lg btn-secondary">
+                    <a href="http://old.pedsav.com" class="btn btn-lg btn-secondary" target="_blank" rel="nofollow">
                         View Old Site
                     </a>
                 </div>
@@ -215,7 +219,7 @@
             <div class="col-md-6 sm-half-gutter-top">
                 <p>
                     Need more info?
-                    <a href="//old.pedsav.com">Visit our old site</a>.
+                    <a href="//old.pedsav.com" target="_blank" rel="nofollow">Visit our old site</a>.
                 </p>
             </div>
             <div class="col-md-6 responsive-right">
