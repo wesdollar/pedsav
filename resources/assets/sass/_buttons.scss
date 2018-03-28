@@ -1,0 +1,24 @@
+.btn {
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: $global-font-weight;
+  padding: 10px 20px;
+}
+
+.btn-sm {
+  font-size: 0.8rem;
+}
+
+.btn-lg {
+  padding: 15px 30px;
+}
+
+.btn-orange {
+  background-color: $orange;
+  color: $white;
+
+  &:hover, &:active {
+    background-color: darken($orange, 6);
+    color: $white;
+  }
+}

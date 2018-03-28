@@ -1,0 +1,290 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: $global-font-weight;
+
+  p, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.6em;
+    font-weight: $global-font-weight;
+  }
+}
+
+header {
+  background: url("../img/dots-repeatable.png") repeat-x;
+  background-size: 519px 302px;
+  background-position-y: -137px;
+}
+
+#logo {
+  width: 412px;
+  height: auto;
+  margin-top: 214px;
+  margin-bottom: $gutter * 2;
+}
+
+.ghost-box {
+  -webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+  padding: $gutter / 2;
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: $gutter;
+  }
+}
+
+#offices {
+
+  h2 {
+    font-size: 1.3em;
+    text-align: center;
+    border-bottom: 1px solid lighten($red, 30%);
+    padding-bottom: 10px;
+    margin-bottom: $gutter / 2;
+    color: $red;
+  }
+
+  .address-box {
+    min-height: 50px;
+  }
+}
+
+.with-icon {
+  display: table;
+
+  i {
+    width: 25px;
+    position: relative;
+    top: 2px;
+  }
+
+  i, p {
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+
+section#rocket {
+  padding-top: 140px;
+  padding-bottom: 90px;
+  background: url("../img/bg-caret.png") repeat-x $blue;
+  background-size: 81px 40px;
+  min-height: 400px;
+  width: auto;
+  background-position: top;
+  margin-top: $gutter * 2;
+  color: $white;
+
+  img {
+    width: 331px;
+    height: auto;
+    position: relative;
+    top: -60px;
+    left: 50px;
+
+      @include media-breakpoint-down(sm) {
+        top: 0;
+        left: 0;
+        margin-top: 40px;
+        //padding-bottom: $gutter;
+      }
+  }
+
+  h2, h3 {
+    line-height: 1em;
+  }
+
+  h2 {
+    font-size: 3.1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 16px;
+  }
+
+  h2, p {
+    color: $yellow;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+#clouds {
+  position: relative;
+  margin-top: -158px;
+  text-align: center;
+  background: url("../img/clouds-repeatable.png") repeat-x;
+  background-position: bottom;
+  background-size: 377px 61px;
+
+  @include media-breakpoint-down(xs) {
+
+    margin-top: -113px;
+  }
+
+  img {
+    width: 565px;
+    height: auto;
+    position: relative;
+    left: 140px;
+
+    @include media-breakpoint-down(sm) {
+      left: 0;
+    }
+  }
+}
+
+section#doctors {
+
+  color: $blue;
+  padding-top: 120px;
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 64px;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    margin-top: $gutter / 2;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+  }
+}
+
+#doc-container {
+  margin-top: -60px;
+}
+
+section#video {
+
+  background: url("../img/waves-repeatable.jpg") repeat-x $light-blue;
+  background-size: 1200px 311px;
+  color: $white;
+
+  iframe {
+    max-width: 100%;
+  }
+
+  .container {
+
+    padding-top: 150px;
+    padding-bottom: 213px;
+
+    @include media-breakpoint-down(sm) {
+      padding-bottom: $gutter;
+    }
+  }
+
+  h3 {
+    color: $blue;
+    font-weight: 500;
+  }
+
+}
+
+#ducky {
+  img {
+    width: 148px;
+    height: auto;
+    float: right;
+    position: relative;
+    right: 100px;
+    top: -83px;
+    margin-bottom: -83px;
+  }
+}
+
+#fishy {
+  img {
+    width: 263px;
+    height: auto;
+    float: left;
+    opacity: 0.3;
+    margin-top: -215px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    position: relative;
+    left: 61px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+footer {
+  //background: url("../img/white-diag-bg.svg") no-repeat;
+  //background-size: auto auto;
+  //background: linear-gradient(177deg, $light-blue 50%, $white 50%);
+  position: relative;
+  //margin-top: -102px;
+  padding-top: $gutter;
+  background: $light-blue;
+
+  @include media-breakpoint-down(sm) {
+    //margin-top: 52px;
+  }
+
+  .diag-bg {
+    max-width: 100%;
+    overflow: hidden;
+
+    svg {
+      height: 8vw;
+      position: relative;
+      width: 100%;
+    }
+  }
+
+  img {
+    width: 179px;
+    height: auto;
+  }
+
+  .diag-bg {
+    margin-bottom: -55px;
+  }
+
+  a, a:visited, a:hover, a:active {
+    color: $white;
+  }
+}
+
+.header-buttons a:first-of-type {
+
+  @include media-breakpoint-up(md) {
+
+    margin-right: 12px;
+  }
+
+  @include media-breakpoint-down(sm) {
+
+    margin-bottom: 20px;
+  }
+}
+
+.btn {
+
+  @include media-breakpoint-down(xs) {
+
+    width: 100%;
+  }
+
+}

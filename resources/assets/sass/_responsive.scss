@@ -1,0 +1,13 @@
+@include media-breakpoint-up(md) {
+
+  .responsive-right {
+    text-align: right;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+
+  .sm-center {
+    text-align: center;
+  }
+}
