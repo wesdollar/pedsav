@@ -63,7 +63,7 @@
                         </address>
 
                         <div class="center">
-                            <a href="http://www.pedsav.com/index.php?option=com_content&view=article&id=4&Itemid=6"
+                            <a href="http://old.pedsav.com/index.php?option=com_content&view=article&id=4&Itemid=6"
                                class="btn btn-sm btn-secondary"
                                 target="_blank"
                                 rel="nofollow">
