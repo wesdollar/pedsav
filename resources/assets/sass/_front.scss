@@ -230,13 +230,10 @@ section#video {
 }
 
 footer {
-  //background: url("../img/white-diag-bg.svg") no-repeat;
-  //background-size: auto auto;
-  //background: linear-gradient(177deg, $light-blue 50%, $white 50%);
   position: relative;
-  //margin-top: -102px;
-  padding-top: $gutter;
-  background: $light-blue;
+  padding-top: 60px;
+  background: url('../img/white-diag-bg.png') center top;
+  margin-top: -87px;
 
   @include media-breakpoint-down(sm) {
     //margin-top: 52px;
@@ -263,7 +260,11 @@ footer {
   }
 
   a, a:visited, a:hover, a:active {
-    color: $white;
+    //color: $white;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 70px;
   }
 }
 
