@@ -10,8 +10,8 @@ class FrontController extends Controller
     public function index() {
 
         $meta = [
-            'title' => 'Pediatric Associates of Savannah',
-            'description' => '',
+            'title' => 'Pediatric Associates of Savannah | Caring from the Start',
+            'description' => 'The Pediatric Associates of Savannah have been the local baby experts since 1971. Offering three convenient locations to ensure your baby\'s health needs are always met with weekend and urgent care hours.',
         ];
 
         $offices = [
