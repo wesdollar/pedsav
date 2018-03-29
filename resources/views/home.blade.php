@@ -183,7 +183,7 @@
                     Pediatric Associates of Savannah has been the baby experts since 1971. Caring from the start.
                 </p>
                 <p class="gutter-top">
-                    <a href="//facebook.com/" target="_blank" rel="nofollow">
+                    <a href="//www.facebook.com/PediatricAssociatesofSavannah/" target="_blank" rel="nofollow">
                         <i class="fa fa-facebook biggest-text"></i>
                     </a>
                 </p>
