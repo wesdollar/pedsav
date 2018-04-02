@@ -41,10 +41,10 @@ class FrontController extends Controller
             'whitemarsh' => [
                 'id' => 'whitemarsh',
                 'title' => 'Whitemarsh Island',
-                'phone' => '912.330.5010',
+                'phone' => '912.898.9800',
                 'address' => '1001  Memorial Lane',
-                'city' => 'Whitemarsh',
-                'zip' => '31404',
+                'city' => 'Savannah',
+                'zip' => '31410',
                 'hours' => [
                     '8am – 5pm Mon thru Fri',
                 ],

@@ -86,7 +86,7 @@
                     $buttons = [
                         [
                             'href' => 'https://health.healow.com/pedsav',
-                            'title' => 'Online Bill Pay'
+                            'title' => 'Bill Pay / Patient Portal'
                         ],
                         [
                             'href' => 'http://old.pedsav.com/index.php?option=com_content&view=article&id=23&Itemid=25',
