@@ -268,7 +268,7 @@ footer {
   }
 }
 
-.header-buttons a:first-of-type {
+.header-buttons a:not(:last-of-type) {
 
   @include media-breakpoint-up(md) {
 
