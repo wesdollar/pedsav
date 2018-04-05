@@ -85,15 +85,15 @@
                 <?php
                     $buttons = [
                         [
-                            'href' => '//health.healow.com/pedsav',
+                            'href' => 'https://health.healow.com/pedsav',
                             'title' => 'Patient Portal'
                         ],
                         [
-                            'href' => '//www.navicurepayments.com/pedsav/pay',
+                            'href' => 'https://www.navicurepayments.com/pedsav/pay',
                             'title' => 'Bill Pay'
                         ],
                         [
-                            'href' => '//old.pedsav.com/index.php?option=com_content&view=article&id=23&Itemid=25',
+                            'href' => 'http://old.pedsav.com/index.php?option=com_content&view=article&id=23&Itemid=25',
                             'title' => 'New Parent Form'
                         ],
                     ];
