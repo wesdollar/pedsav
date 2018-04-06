@@ -78,7 +78,7 @@ class FrontController extends Controller
                 'img' => 'dr-steven-hobby',
             ],
             [
-                'name' => 'Dr. Adia H. Wilkes',
+                'name' => 'Dr. Adria H. Wilkes',
                 'credentials' => 'MD, FAAP',
                 'img' => 'dr-adria-wilkes',
             ],
